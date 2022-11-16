@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html {
+  font-size: 62.5%;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+  
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.container {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 100vh;
+  grid-template-areas: "m"
+                          "r";
+
+  background-color: #ffffff;
+}
+  
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+div#logado {
+  text-align: center;
+  font-weight: bolder;
+  color: green;
+  font-size: 1.2rem;
+  margin-top: 1.2%;
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
+  
+.formulario {
+  grid-area: m;
+  justify-self: center;
+  align-self: center;
+  padding: 5%;
+  width: 30%;
+}
+
+select.colunas {
+  width: 100%;
+  height: 6vh;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  margin-top: 1%;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+input {
+  width: 100%;
+  height: 6vh;
+  padding: 3%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-size: 1.6rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .4);
+  outline: none;
+}
+  
+input.tBox:hover {
+  border-color: green;
+}
+  
+.botao {
+  padding-top: 3%;
+  background-color: green;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 1%;
+  font-weight: bolder;
+  font-size: 1.6rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+
+div#msg-sucesso {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: rgba(50, 205, 50, 0.3);
+  border: 1px solid rgb(34, 139, 34);
+}
+
+div#msg-erro-1 {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: rgba(250, 128, 114, 0.3);
+  border: 1px solid rgb(165, 42, 42);
+}
+
+div#msg-erro-2 {
+  width: 100%;
+  text-align: center;
+  padding: 1%;
+  background-color: rgba(250, 128, 114, 0.3);
+  border: 1px solid rgb(165, 42, 42);
+}
+
+a#cadastro {
+  background-color: rgb(42, 110, 165);
+  color: white;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  float: left;
+  
+}
+
+a#voltar {
+  background-color: rgb(42, 110, 165);
+  color: white;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  float: left;
+}
+
+a#sair {
+  background-color: rgb(165, 42, 42);
+  color: white;
+  padding: 2%;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  float: right;
+}
+  
+  /*MEDIA QUERIES*/
+  
+@media (max-width: 1024px){
+  .formulario {
+    width: 80%;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  p {
+    font-size: 2.9rem;
+  }
+  
+  input {
+    font-size: 2.9rem;
+  }
+  
+  .botao {
+    font-size: 2.9rem;
+  }
+  
+}
+  
+@media (max-width: 768px){
+    
+  h1 {
+    font-size: 3rem;
+  }
+  
+  p {
+    font-size: 2.2rem;
+  }
+  
+  input {
+    font-size: 2.2rem;
+  }
+  
+  .botao {
+    font-size: 2.2rem;
+  }
+  
+}
+
+@media (max-width: 540px){
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.8rem;
+  }
+  
+  input {
+    font-size: 1.8rem;
+  }
+  
+  .botao {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 414px){
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.6rem;
+  }
+  
+  input {
+    font-size: 1.6rem;
+  }
+  
+  .botao {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 375px){
+  h1 {
+      font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.4rem;
+  }
+  
+  input {
+    font-size: 1.4rem;
+  }
+  
+  .botao {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 320px){
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  input {
+    font-size: 1.2rem;
+  }
+  
+  .botao {
+    font-size: 1.2rem;
+  }
+}
+  
