@@ -1,6 +1,6 @@
 ### Remote Excel
 
-App for data control using PHP integrated with EXCEL made for a condominium be able to publish your data in an Excel table remotely, called Excel Remoto. The project uses a library called PHPSpreadSheet (https://phpspreadsheet.readthedocs.io/en/latest/) for integration with Excel, It's also owns user login system, e etc.
+App for data control using PHP integrated with EXCEL made for a condominium be able to publish your water data in an Excel table remotely, called Excel Remoto. The project uses a library called PHPSpreadSheet (https://phpspreadsheet.readthedocs.io/en/latest/) for integration with Excel, It's also owns user login system, e etc.
 
 Project started on 07/20/2021 by Mateus Emanuel Silva Macedo, owner of this GitHub account, under the guidance of his professor at IFRN Campus Mossoró; Clayton Maciel Costa, using the following technologies: PHP, HTML and CSS.
 
